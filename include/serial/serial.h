@@ -43,7 +43,9 @@
 #include <sstream>
 #include <exception>
 #include <stdexcept>
-#include <serial/v8stdint.h>
+#include <stddef.h>
+#include <stdio.h>
+#include <stdint.h>
 
 #define THROW(exceptionClass, message) throw exceptionClass(__FILE__, \
 __LINE__, (message) )
